@@ -37,23 +37,21 @@ DataSet-Bank_Personal_Loan_Modelling.csv
 
 Column Descrition - TheraBank_Column_Description.xlsx
 
-1. Read the column description and ensure you understand each attribute well
-
-
-2. Study the data distribution in each attribute, share your findings. (10 points)
-
-
-3. Get the target column distribution. 
-
-
-4. Split the data into training and test set in the ratio of 70:30 respectively
-
-
-5. Use different classification models (Logistic, K-NN and Naïve Bayes) to predict the likelihood of a
-liability customer buying personal loans (30 points)
-
-
-6. Print the confusion matrix for all the above models (10 points)
-
-
-7. Give your reasoning on which is the best model in this case and why it performs better? (10 points)
+1. Import the datasets and libraries, check datatype, statistical summary, shape, null
+values etc
+2. Check if you need to clean the data for any of the variables
+3. EDA: Study the data distribution in each attribute and target variable, share your
+findings.
+    ● Number of unique in each column?
+    ● Number of people with zero mortgage?
+    ● Number of people with zero credit card spending per month?
+    ● Value counts of all categorical columns.
+    ● Univariate and Bivariate analysis
+4. Apply necessary transformations for the feature variables
+5. Normalise your data and split the data into training and test set in the ratio of 70:30
+respectively
+6. Use the Logistic Regression model to predict the likelihood of a customer buying
+personal loans.
+7. Print all the metrics related for evaluating the model performance
+8. Build various other classification algorithms and compare their performance
+9. Give a business understanding of your model
